@@ -1321,13 +1321,3 @@ section {
   margin-right: 18px;
   line-height: 42px;
 }
-
-.stat-item-text {
-  padding-top: 4px;
-  padding-left: 62px;
-}
-
-.flaticon-shirt16:before {
-  content: "\e007";
-}
-
