@@ -631,7 +631,6 @@ section {
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .about .content h3 {
@@ -1347,12 +1346,4 @@ section {
 .navBanner {
   background-color: white;
   padding: 10px;
-}
-
-/* Why Choose Us? */
-.why {
-  color: black;
-  margin-bottom: 20px;
-  font-size: 48px;
-  font-weight: 700;
 }
