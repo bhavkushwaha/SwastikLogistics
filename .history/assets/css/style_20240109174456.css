@@ -1410,7 +1410,7 @@ section {
   padding: 100px 0 25px;
 }
 .def-section {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
@@ -1442,13 +1442,4 @@ section {
   position: relative;
   display: block;
   padding: 143px 0 86px;
-}
-
-.breadcrumb-area .inner-content-box .title-s2 h1 {
-  color: #ffffff;
-  font-size: 33px;
-  /* line-height: 12px; */
-  font-weight: 700;
-  margin: 26px 0 0;
-  text-transform: capitalize;
 }

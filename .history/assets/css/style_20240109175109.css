@@ -1410,7 +1410,7 @@ section {
   padding: 100px 0 25px;
 }
 .def-section {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
@@ -1434,7 +1434,7 @@ section {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0px 0 0px;
+  /* padding: 0px 0 0px; */
   z-index: 10;
 }
 
