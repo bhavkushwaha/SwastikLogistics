@@ -1490,24 +1490,19 @@ section {
 
 .stat-content {
   font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     color: #191919;
     text-align: center;
 }
 
-@media (min-width: 380px){
+@media (min-width: 480px){
 .stats .container {
     max-width: 540px;
 }
 .stats .col-sm-6 {
   width: 100%;
-  padding: 5px 15px;
-}
-
-.stat-item-text {
-  padding-top: 8px;
-  padding-left: 62px;
+  padding: 5px;
 }
 }
 
@@ -1518,13 +1513,7 @@ section {
       .stats .col-sm-6 {
         width: 50%;
         padding: 5px;
-        padding-left: 5px 15px;
     }
-
-    .stat-item-text {
-      padding-top: 8px;
-      padding-left: 62px;
-  }
       }
 
 @media (min-width: 992px){

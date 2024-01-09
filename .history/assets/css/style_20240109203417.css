@@ -1437,14 +1437,14 @@ section {
     position: relative;
 }
 
-/* .stats-overlay {
+.stats-overlay {
   background: rgba(0,0,0,.5);
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-} */
+}
 
 .stats .row {
   margin-right: -15px;
@@ -1490,24 +1490,15 @@ section {
 
 .stat-content {
   font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     color: #191919;
     text-align: center;
 }
 
-@media (min-width: 380px){
+@media (min-width: 576px){
 .stats .container {
     max-width: 540px;
-}
-.stats .col-sm-6 {
-  width: 100%;
-  padding: 5px 15px;
-}
-
-.stat-item-text {
-  padding-top: 8px;
-  padding-left: 62px;
 }
 }
 
@@ -1515,16 +1506,6 @@ section {
       .stats .container {
           max-width: 720px;
       }
-      .stats .col-sm-6 {
-        width: 50%;
-        padding: 5px;
-        padding-left: 5px 15px;
-    }
-
-    .stat-item-text {
-      padding-top: 8px;
-      padding-left: 62px;
-  }
       }
 
 @media (min-width: 992px){
@@ -1537,7 +1518,4 @@ section {
         .stats .container {
             max-width: 1200px;
         }
-        .stats .col-sm-6 {
-          width: 25%;
-      }
         }
