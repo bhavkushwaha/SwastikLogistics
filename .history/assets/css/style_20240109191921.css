@@ -1361,15 +1361,13 @@ section {
     color: white;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
   .banner {
-    .row {
-      display: block;
-      text-align: center !important;
-      padding: 5px;
-    }
+    .col {
+      flex: 1 0 0%;
   }
   }
+}
 
 .navBanner {
   background-color: white;
@@ -1462,14 +1460,3 @@ section {
   margin: 26px 0 0;
   text-transform: capitalize;
 }
-
-.alignR {
-  text-align: right;
-}
-
-@media (max-width: 540px) {
-  .alignR {
-    text-align: center;
-    padding: 5px;
-  }
-  }

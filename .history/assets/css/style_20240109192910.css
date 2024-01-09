@@ -1462,14 +1462,3 @@ section {
   margin: 26px 0 0;
   text-transform: capitalize;
 }
-
-.alignR {
-  text-align: right;
-}
-
-@media (max-width: 540px) {
-  .alignR {
-    text-align: center;
-    padding: 5px;
-  }
-  }
