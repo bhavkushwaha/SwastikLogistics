@@ -1172,6 +1172,9 @@ section {
 
 /* STATS */
 
+/* .flaticon-shirt16:before {
+  content: "\e007";
+} */
 
 /* TopBar */
 .banner {
@@ -1495,7 +1498,3 @@ section {
 .footerLink {
       color: white;
   }
-
-.FooterBottomLink {
-  padding-bottom: 23px;
-}
